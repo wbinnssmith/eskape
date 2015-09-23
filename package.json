@@ -9,7 +9,7 @@
     "dist": "mkdir -p dist/ && browserify -s eskape -d -t babelify . | exorcist dist/eskape.js.map > dist/eskape.js",
     "prepublish": "npm test && npm run dist"
   },
-  "keywords": [],
+  "keywords": ["es6", "es2015", "escape", "html", "template", "string"],
   "author": "Will Binns-Smith <wbinnssmith@gmail.com> (http://wbinnssmith.com)",
   "license": "MIT",
   "dependencies": {
