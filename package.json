@@ -1,6 +1,6 @@
 {
   "name": "eskape",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "html escaping as an es6 tagged template string",
   "main": "index.js",
   "scripts": {
