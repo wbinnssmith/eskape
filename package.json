@@ -1,0 +1,25 @@
+{
+  "name": "eskape",
+  "version": "1.0.0",
+  "description": "html escaping as an es6 tagged template string",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && node test.js",
+    "build": "babel src.js -o index.js",
+    "dist": "mkdir -p dist/ && browserify -s eskape -d -t babelify . | exorcist dist/eskape.js.map > dist/eskape.js",
+    "prepublish": "npm test && npm dist"
+  },
+  "keywords": [],
+  "author": "Will Binns-Smith <wbinnssmith@gmail.com> (http://wbinnssmith.com)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.escape": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "babelify": "^6.3.0",
+    "browserify": "^11.1.0",
+    "exorcist": "^0.4.0",
+    "tape": "^4.2.0"
+  }
+}
