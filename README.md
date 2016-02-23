@@ -1,6 +1,6 @@
 # eskape
 
-html escaping as an es6 tagged template string.
+html escaping as an es6 tagged template string in 1k min+gz.
 
 ## Installation
 ```
@@ -26,4 +26,4 @@ document.body.innerHTML = eskape`
 This will set the body's html content to the literal html content in the string, but will escape the `userinput` value.
 
 ## License
-(c) 2015 Will Binns-Smith. Licensed MIT.
+(c) 2016 Will Binns-Smith. Licensed MIT.
