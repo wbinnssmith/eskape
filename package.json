@@ -2,6 +2,7 @@
   "name": "eskape",
   "version": "1.2.0",
   "description": "html escaping as an es6 tagged template string",
+  "repo": "wbinnssmith/eskape",
   "main": "index.js",
   "scripts": {
     "test": "npm run build && node test.js",
